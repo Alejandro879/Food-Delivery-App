@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Food Delivery App</title>
+	<link rel="stylesheet" href="estilos.css">
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body class=" bg-gray-100 ">
+	<section class="container px-4 py-2 m-auto">
+		<!-- heaed -->
+		<article class="head flex flex-row w-full h-16 items-center mb-6">
+			<span class="material-icons f-32 w-2/12"> grain </span>
+			<div class="flex select w-8/12 text-center">
+				<select name="country" class="m-auto text-xl">
+					<option value="LA">Los Angeles</option>
+					<option value="VE">Venezuela</option>
+					<option value="ES">España</option>
+				</select>			
+			</div>
+			<span class="material-icons f-32 w-2/12 text-right"> search </span>
+		</article>
+		<!-- box -->
+		<article class="flex flex-row w-full">
+			<div class="w-full bg-orange-200 h-40 rounded-2xl flex ">
+				<figure class="flex flex-cols w-6/12">	
+					<img src="img/press.png" alt="" class="h-40 relative img-delivery">
+				</figure>
+				<div class="flex flex-cols text-center w-6/12 regalo items-start pt-2">
+					<p class="text-left text-2xl font-bold text-orange-500">Free Delivery During Covid19</p>
+				</div>
+			</div>
+			
+		</article>
+		<!-- category -->
+
+		<article class="flex flex-row justify-items-stretch">
+           <div class="flex-auto font-bold px-4 py-2 w-9/12 center-all">
+               <p class="text-xl ">Categories</p>
+           </div>
+           <div class="flex-auto px-4 py-2 center-all">
+                <p class="text-orange-400">view all</p>
+           </div>
+       </article>
+		<article class="flex flex-row w-full">
+			<div class="h-48 flex flex-cols w-4/12 py-2 px-2">
+				<div class="flex flex-col w-full bg-yellow-600 rounded-xl h-full">
+					<div class="relative bg-white flex felx-row h-16 w-16 rounded-full items-center flex flex-row mx-auto my-4 pup
+                    shadow-xl">
+                        <img src="https://img.icons8.com/fluent/50/000000/pizza.png" class="m-auto" />
+                    </div>
+                    <div class="flex flex-row text-white text-center font-bold">
+                    	<p class="text-center text-lg m-auto text-white">Pizza</p>
+                    </div>
+                    <div class="relative bg-white  h-8 w-8 rounded-full items-center flex flex-row mx-auto my-4 pup">
+                       <span class="material-icons m-auto text-yellow-600 font-bold"> keyboard_arrow_right </span>
+                    </div>
+				</div>
+			</div>
+			<div class="h-48 flex flex-cols w-4/12 py-2 px-2">
+				<div class="flex flex-col w-full bg-yellow-600 rounded-xl h-full">
+					<div class="relative bg-white flex felx-row h-16 w-16 rounded-full items-center flex flex-row mx-auto my-4 pup
+                    shadow-xl">
+                        <img src="https://img.icons8.com/color/48/000000/coffee-to-go.png" class="m-auto"/>
+                    </div>
+                    <div class="flex flex-row text-white text-center font-bold">
+                    	<p class="text-center text-lg m-auto text-white">Drink	</p>
+                    </div>
+                    <div class="relative bg-white  h-8 w-8 rounded-full items-center flex flex-row mx-auto my-4 pup">
+                       <span class="material-icons m-auto text-yellow-600 font-bold"> keyboard_arrow_right </span>
+                    </div>
+				</div>
+			</div>
+			<div class="h-48 flex flex-cols w-4/12 py-2 px-2">
+				<div class="flex flex-col w-full bg-yellow-600 rounded-xl h-full">
+					<div class="relative bg-white flex felx-row h-16 w-16 rounded-full items-center flex flex-row mx-auto my-4 pup
+                    shadow-xl">
+                        <img src="https://img.icons8.com/color/48/000000/popcorn.png" class="m-auto"/>
+                    </div>
+                    <div class="flex flex-row text-white text-center font-bold">
+                    	<p class="text-center text-lg m-auto text-white">Snack</p>
+                    </div>
+                    <div class="relative bg-white  h-8 w-8 rounded-full items-center flex flex-row mx-auto my-4 pup">
+                       <span class="material-icons m-auto text-yellow-600 font-bold"> keyboard_arrow_right </span>
+                    </div>
+				</div>
+			</div>
+		</article>
+
+		<!-- POPULAR -->
+		<article class="flex flex-row justify-items-stretch">
+           <div class="flex-auto font-bold px-4 py-2 w-9/12 center-all">
+               <p class="text-xl ">Popular Now</p>
+           </div>
+           <div class="flex-auto px-4 py-2 center-all">
+                <p class="text-orange-400">view all</p>
+           </div>
+       </article>
+       <article class="flex flex-col w-full">
+       		<div class="w-full bg-white h-32 rounded-2xl flex shadow-lg relative flex-cols flex my-2">
+				<figure class="flex flex-cols w-5/12 h-24 my-auto">	
+					<img src="img/pizza.png" alt="" class="h-24 relative bg-gray-100 m-auto py-2 px-4 rounded-lg">
+				</figure>
+				<div class="flex flex-col py-2">
+					<b class="text-xl w-full">Meaty Pizza</b>
+					<form class="text-left w-full">
+					  <p class="clasificacion">
+					    <input id="radio1" type="radio" name="estrellas" value="5" checked><!--
+					    --><label for="radio1">★</label><!--
+					    --><input id="radio2" type="radio" name="estrellas" value="4" checked><!--
+					    --><label for="radio2">★</label><!--
+					    --><input id="radio3" type="radio" name="estrellas" value="3" checked><!--
+					    --><label for="radio3">★</label><!--
+					    --><input id="radio4" type="radio" name="estrellas" value="2" checked><!--
+					    --><label for="radio4">★</label><!--
+					    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+					    --><label for="radio5">★</label>
+					  </p>
+					</form>
+					<div class="text-left w-full">
+						<b class="font-bold text-lg "><b class="text-orange-400 text-sm">$</b> 12</b>
+					</div>
+					<div class="absolute w-2/12 h-12 bg-yellow-600 right-0 bottom-0 b-c flex flex-row">
+						<span class="material-icons m-auto text-center text-white"> add </span> 
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full bg-white h-32 rounded-2xl flex shadow-lg relative flex-cols flex my-2">
+				<figure class="flex flex-cols w-5/12 h-24 my-auto">	
+					<img src="img/pizza2.png" alt="" class="h-24 relative bg-gray-100 m-auto py-2 px-4 rounded-lg">
+				</figure>
+				<div class="flex flex-col py-2">
+					<b class="text-xl w-full">Pepperoni Pizza</b>
+					<form class="text-left w-full">
+					  <p class="clasificacion">
+					    <input id="radio1" type="radio" name="estrellas" value="5" checked><!--
+					    --><label for="radio1">★</label><!--
+					    --><input id="radio2" type="radio" name="estrellas" value="4" checked><!--
+					    --><label for="radio2">★</label><!--
+					    --><input id="radio3" type="radio" name="estrellas" value="3" checked><!--
+					    --><label for="radio3">★</label><!--
+					    --><input id="radio4" type="radio" name="estrellas" value="2" checked><!--
+					    --><label for="radio4">★</label><!--
+					    --><input id="radio5" type="radio" name="estrellas" value="1" checked><!--
+					    --><label for="radio5">★</label>
+					  </p>
+					</form>
+					<div class="text-left w-full">
+						<b class="font-bold text-lg "><b class="text-orange-400 text-sm">$</b> 10</b>
+					</div>
+					<div class="absolute w-2/12 h-12 bg-yellow-600 right-0 bottom-0 b-c flex flex-row">
+						<span class="material-icons m-auto text-center text-white"> add </span> 
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full bg-white h-32 rounded-2xl flex shadow-lg relative flex-cols flex my-2">
+				<figure class="flex flex-cols w-5/12 h-24 my-auto">	
+					<img src="img/pizza3.png" alt="" class="h-24 relative bg-gray-100 m-auto py-2 px-4 rounded-lg">
+				</figure>
+				<div class="flex flex-col py-2">
+					<b class="text-xl w-full">parmesane Pizza</b>
+					<form class="text-left w-full">
+					  <p class="clasificacion">
+					    <input id="radio1" type="radio" name="estrellas" value="5" checked><!--
+					    --><label for="radio1">★</label><!--
+					    --><input id="radio2" type="radio" name="estrellas" value="4" checked><!--
+					    --><label for="radio2">★</label><!--
+					    --><input id="radio3" type="radio" name="estrellas" value="3" checked><!--
+					    --><label for="radio3">★</label><!--
+					    --><input id="radio4" type="radio" name="estrellas" value="2" checked><!--
+					    --><label for="radio4">★</label><!--
+					    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+					    --><label for="radio5">★</label>
+					  </p>
+					</form>
+					<div class="text-left w-full">
+						<b class="font-bold text-lg "><b class="text-orange-400 text-sm">$</b> 8</b>
+					</div>
+					<div class="absolute w-2/12 h-12 bg-yellow-600 right-0 bottom-0 b-c flex flex-row">
+						<span class="material-icons m-auto text-center text-white"> add </span> 
+					</div>
+				</div>
+			</div>
+       </article>
+	</section>
+
+
+</body>
+</html>
