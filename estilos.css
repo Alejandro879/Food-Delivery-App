@@ -1,19 +1,19 @@
-
-*{
+* {
     font-family: 'Nunito', sans-serif;
     color: #383838;
 }
-.f-32{
-	font-size: 32px!important;
+
+.f-32 {
+    font-size: 32px !important;
 }
 
-.f-45{
-	font-size: 45px!important;
+.f-45 {
+    font-size: 45px !important;
 }
 
 select {
     line-height: 1;
-    padding-right: 30px!important;
+    padding-right: 30px !important;
     border: 0;
     border-radius: 5px;
     background: url(https://img.icons8.com/color/48/000000/chevron-down.png) no-repeat right transparent;
@@ -22,13 +22,13 @@ select {
     background-size: 22px
 }
 
-.img-delivery{
-	bottom: 24px;
+.img-delivery {
+    bottom: 24px;
     left: 1rem;
 }
 
-.regalo{
-	    background-image: url(img/regalo.png);
+.regalo {
+    background-image: url(img/regalo.png);
     background-size: 115px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -36,40 +36,41 @@ select {
 }
 
 #form {
-  width: 250px;
-  margin: 0 auto;
-  height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
 }
 
 #form p {
-  text-align: center;
+    text-align: center;
 }
 
 #form label {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 input[type="radio"] {
-  display: none;
+    display: none;
 }
 
 label {
-  color: grey;
+    color: grey;
 }
 
 .clasificacion {
-  direction: rtl;
-  unicode-bidi: bidi-override;
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 
 label:hover,
-label:hover ~ label {
-  color: orange;
+label:hover~label {
+    color: orange;
 }
 
-input[type="radio"]:checked ~ label {
-  color: orange;
+input[type="radio"]:checked~label {
+    color: orange;
 }
-.b-c{
-	border-radius: 15px 0px;
+
+.b-c {
+    border-radius: 15px 0px;
 }
